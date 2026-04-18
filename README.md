@@ -51,8 +51,7 @@ github-analyst/
 ├── mcp_config.py           # MCP server connections
 ├── model_config.py         # Model provider switcher
 ├── requirements.txt
-├── .env                    # Your secrets (not committed)
-├── .env.example            # Template
+├── .env.example            # env template
 ├── prompts/
 │   └── system_prompt.txt   # Agent instructions + report structure
 ├── reports/                # Generated reports saved here
@@ -212,6 +211,5 @@ Areas for Improvement: ...
 
 ## Notes
 
-- First run downloads MCP server packages via `npx` — this takes ~30 seconds. Subsequent runs are instant.
 - Context window is set to 16k. For very large repos the agent may truncate some content.
 - `qwen2.5:7b` is recommended over `llama3.2` for reliable tool calling behaviour.
