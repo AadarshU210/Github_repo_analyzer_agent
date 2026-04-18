@@ -1,0 +1,10 @@
+strands-agents
+strands-agents-tools
+mcp
+pygithub
+python-dotenv
+requests
+ollama
+anthropic
+boto3
+streamlit
